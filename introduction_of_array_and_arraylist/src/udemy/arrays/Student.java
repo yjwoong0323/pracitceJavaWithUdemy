@@ -9,7 +9,7 @@ public class Student {
 	
 	// Fields
 	private String name;
-	private ArrayList<Integer> marks = new ArrayList<Integer>();
+	private ArrayList<Integer> marks = new ArrayList<>();
 	
 	// Constructor
 	public Student(String name, int... marks) {
@@ -26,7 +26,6 @@ public class Student {
 
 	public int getTotalSumOfMarks() {
 		int totalSumOfMarks = 0;
-		
 		for(int mark:marks) {
 			totalSumOfMarks += mark;
 		}
